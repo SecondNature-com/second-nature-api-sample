@@ -1,7 +1,7 @@
 export const config = {
   credentials: {
     username: 'admin@secondnature.com',
-    password: '3jf03zk1k9z',
+    password: 'tiy03rgtz9b',
   },
   apiUrl: 'http://localhost:3030',
 };
