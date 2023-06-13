@@ -1,0 +1,32 @@
+{
+  "name": "second-nature-api-sample",
+  "version": "1.0.0",
+  "description": "Sample application showing how to interface with the Second Nature API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.ts",
+    "start:dev": "ts-node-dev --respawn --files src/main.ts",
+    "lint": "eslint --ext ./src/**/*.ts,./src/**/*.js . --fix",
+    "format": "prettier \"./src/**\" --write --ignore-unknown",
+    "format:check": "prettier \"./src/**\" --ignore-unknown --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecondNature-com/second-nature-api-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SecondNature-com/second-nature-api-sample/issues"
+  },
+  "homepage": "https://github.com/SecondNature-com/second-nature-api-sample#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "prettier": "^2.8.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
